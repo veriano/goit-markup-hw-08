@@ -1,0 +1,31 @@
+.page-header {
+  position: relative;
+  padding: 16px 0px;
+}
+
+.logo {
+  @extend %blue-color;
+  height: 31px;
+  font-family: $secondary-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.38;
+
+  &--with-margin-right {
+    margin-right: 93px;
+  }
+
+  &--dark {
+      color: $black-dark-color;
+    }
+
+  &--white{
+      color: $white-color;
+   }
+}
+
+.header-navigation,
+.header-contacts {
+  display: none;
+}
+

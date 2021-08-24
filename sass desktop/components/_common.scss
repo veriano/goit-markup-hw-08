@@ -1,0 +1,94 @@
+body {
+  background-color: $white-color;
+  color: $primary-color;
+  font-family: $primary-font;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container--footer-flex {
+    display: flex;
+}
+
+.second-section {
+  padding: 94px 0 47px 0;
+}
+
+.images-section {
+  padding: 47px 0 94px 0;
+}
+
+.team-section {
+  background-color: $team-color;
+  padding: 94px 0;
+}
+
+.clients-section {
+  padding: 94px 0;
+}
+
+.project-section {
+  padding: 94px 0;
+}
+
+.footer-section {
+  padding: 60px 0;
+  background-color: $black-color;
+}
+
+.footer-icons-wrapper {
+  margin-top: 12px;
+  width: 206px;
+}
+
+.footer-form {
+  margin: 12px 0 0 auto;
+}
+
+.list-secondary-buttons {
+  @extend %flex;
+  width: 611px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  font-size: 0;
+}
+
+
+
+
+
+
