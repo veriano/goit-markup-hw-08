@@ -326,8 +326,19 @@ a {
 }
 
 .page-header {
-  position: relative;
-  padding: 16px 0px;
+  padding: 10px 0;
+}
+
+.header-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .logo {
@@ -350,9 +361,20 @@ a {
   color: #ffffff;
 }
 
-.header-navigation,
-.header-contacts {
-  display: none;
+.menu-button {
+  border: none;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.menu-button__icon-menu_40 {
+  fill: #000000;
+}
+
+.menu-button:hover .menu-button__icon-menu_40,
+.menu-button:focus .menu-button__icon-menu_40,
+.menu-button:active .menu-button__icon-menu_40 {
+  fill: #2196f3;
 }
 
 .first-section {
@@ -370,5 +392,84 @@ a {
 
 .first-section__main-title {
   margin-bottom: 30px;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  z-index: 4;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  margin: 10px 15px;
+  border: none;
+  background-color: #ffffff;
+}
+
+.close-button__icon-close_40 {
+  fill: #212121;
+}
+
+.close-button:hover .close-button__icon-close_40,
+.close-button:focus .close-button__icon-close_40,
+.close-button:active .close-button__icon-close_40 {
+  fill: #2196f3;
+}
+
+.header-navigation {
+  margin: 48px 40px 302px;
+}
+
+.header-navigation__list-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.header-navigation__navigation {
+  font-weight: 500;
+  font-size: 40px;
+  color: #212121;
+}
+
+.header-navigation__current {
+  color: #2196f3;
+}
+
+.header-contacts {
+  margin: 0 0 64px 40px;
+}
+
+.header-contacts__list-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.header-contacts__link-contact1 {
+  color: #2196f3;
+  font-weight: 500;
+  font-size: 34px;
+}
+
+.header-contacts__link-contact2 {
+  color: #757575;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.socials-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 83px 0 40px;
+  color: #2196f3;
 }
 /*# sourceMappingURL=main.css.map */

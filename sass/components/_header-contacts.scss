@@ -1,0 +1,20 @@
+.header-contacts {
+  margin: 0 0 64px 40px;
+
+  &__list-item:not(:last-child) {
+  margin-bottom: 32px;
+  }
+
+  &__link-contact1 {
+  color: $accent-color;
+  font-weight: 500;
+  font-size: 34px;
+  }
+
+  &__link-contact2 {
+   color: $onemore-color;
+   font-weight: 500;
+   font-size: 24px;
+  }
+}
+
