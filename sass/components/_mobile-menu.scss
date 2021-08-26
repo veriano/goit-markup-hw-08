@@ -6,8 +6,24 @@
     height: 100%;
     background-color: $white-color;
     z-index: 4;
+    margin: 48px 40px 302px;
 
     @media screen and (min-width: 480px) {
         width: 480px;
     }
+
+   &__list-item:not(:last-child) {
+    margin-bottom: 32px;
+   }
+}
+
+
+.mobile-menu__navigation {
+  font-weight: 500;
+  font-size: 40px;
+  color: $primary-color;
+}
+
+.mobile-menu__current {
+  color: $accent-color;
 }

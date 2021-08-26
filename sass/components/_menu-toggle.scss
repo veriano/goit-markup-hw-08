@@ -1,0 +1,23 @@
+.menu-toggle {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border :none;
+    background-color: $white-color;
+
+    &__icon-close_40 {
+      fill: $primary-color;
+    }
+
+    &__icon-menu_40 {
+      fill: $black-dark-color;
+    }
+}
+
+.menu-toggle__icon-close_40:hover,
+.menu-toggle__icon-close_40:focus {
+  fill: $accent-color;
+}

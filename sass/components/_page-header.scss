@@ -2,12 +2,6 @@
     padding: 10px 0;
 }
 
-.header-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .logo {
   @extend %blue-color;
   height: 31px;
@@ -28,6 +22,7 @@
       color: $white-color;
    }
 }
+
 
 
 
