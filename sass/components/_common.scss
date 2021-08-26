@@ -46,6 +46,50 @@ a {
 }
 
 
+.header-navigation,
+.header-contacts {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+.second-section,
+.team-section,
+.clients-section {
+    padding: 60px 0;
+}
+
+.images-section {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+
+.section__title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  color: primary-color;
+  text-align: center;
+}
+
+.footer-section {
+  padding: 60px 0;
+  background-color: $black-color;
+  text-align: center;
+}
+
+.footer-logo-wrapper {
+  margin-bottom: 20px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 14px;
+    color: $white-color;
+    margin-bottom: 20px;
+}
+
 .is-hidden {
   visibility: hidden;
   opacity: 0;
