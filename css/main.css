@@ -404,6 +404,12 @@ a {
   z-index: 4;
 }
 
+@media screen and (min-width: 480px) {
+  .mobile-menu {
+    width: 480px;
+  }
+}
+
 .close-button {
   position: absolute;
   top: 0;

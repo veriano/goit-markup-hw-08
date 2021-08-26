@@ -6,4 +6,8 @@
     height: 100%;
     background-color: $white-color;
     z-index: 4;
+
+    @media screen and (min-width: 480px) {
+        width: 480px;
+    }
 }
