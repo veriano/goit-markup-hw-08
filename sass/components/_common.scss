@@ -90,6 +90,37 @@ a {
     margin-bottom: 20px;
 }
 
+.primary-button {                                           
+  padding: 0;
+  background-color: $accent-color;
+  width: 200px;
+  color: $white-color;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 6%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  
+  &--box-shadow {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  &--with-margin-right {
+    margin-right: 10px;
+  }
+
+  &--flex{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
 .is-hidden {
   visibility: hidden;
   opacity: 0;
