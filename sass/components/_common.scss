@@ -45,7 +45,6 @@ a {
   }
 }
 
-
 .header-navigation,
 .header-contacts {
   @media screen and (max-width: 767px) {
@@ -54,9 +53,14 @@ a {
 }
 
 .second-section,
-.team-section,
+.project-section,
 .clients-section {
     padding: 60px 0;
+}
+
+.team-section {
+  padding: 60px 0;
+  background-color: $team-color;
 }
 
 .images-section {
@@ -65,12 +69,15 @@ a {
   }
 }
 
-.section__title {
-  margin-bottom: 30px;
-  font-weight: 700;
-  font-size: 28px;
-  color: primary-color;
-  text-align: center;
+.list-secondary-buttons {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 362px;
+  margin-bottom: 40px;
+}
+
+.secondary-button {
+  margin: 0 8px 15px 0;
 }
 
 .footer-section {
@@ -83,47 +90,3 @@ a {
   margin-bottom: 20px;
 }
 
-.footer-title {
-    font-weight: 700;
-    font-size: 14px;
-    color: $white-color;
-    margin-bottom: 20px;
-}
-
-.primary-button {                                           
-  padding: 0;
-  background-color: $accent-color;
-  width: 200px;
-  color: $white-color;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 6%;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-
-  
-  &--box-shadow {
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-  }
-
-  &--with-margin-right {
-    margin-right: 10px;
-  }
-
-  &--flex{
-     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-
-
-.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-  font-size: 0;
-}

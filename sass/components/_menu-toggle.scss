@@ -10,14 +10,22 @@
 
     &__icon-close_40 {
       fill: $primary-color;
+      transition: fill 250ms $timing-function;
     }
 
     &__icon-menu_40 {
       fill: $black-dark-color;
+      transition: fill 250ms $timing-function;
     }
-}
 
-.menu-toggle__icon-close_40:hover,
-.menu-toggle__icon-close_40:focus {
-  fill: $accent-color;
+
+    &:hover .menu-toggle__icon-close_40,
+    &:focus .menu-toggle__icon-close_40 {
+      fill: $accent-color;
+    }
+
+    &:hover .menu-toggle__icon-menu_40:hover,
+    &:focus .menu-toggle__icon-menu_40:focus {
+      fill: $accent-color;
+    }
 }

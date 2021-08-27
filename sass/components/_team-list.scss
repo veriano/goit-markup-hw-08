@@ -2,6 +2,10 @@
 
   &__description-team {
   text-align: center;
+  } 
+
+  &__description-team:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
