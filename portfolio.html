@@ -146,7 +146,7 @@
             <li class="card-set__item">
                 <a href="#" class="card-set__project-link">
                     <div class="card-set__picture-portfolio-wrapper">
-                <img srcset="./images/inspiration-450.jpg 1x, ./images/inspiration-900/jpg 2x"
+                <img srcset="./images/inspiration-450.jpg 1x, ./images/inspiration-900.jpg 2x"
                 src="./images/inspiration-450.jpg" alt="монитор" width="450" height="294">
                 <div class="card-set__overlay-portfolio">
                     <p class="card-set__text-overlay-portfolio">Технокряк это современная площадка распостранения коронавируса.
@@ -275,7 +275,44 @@
             </div>
         
         </footer>
-                     <script src="./js/mobile-menu.js"></script>
+
+        <div class="menu-container js-menu-container" id="mobile-menu">
+            <button class="menu-toggle js-close-menu">
+                <svg clas="menu-toggle__icon-close_40" width="40" height="40">
+                    <use href="./images/icons.svg#icon-close_40"></use>
+                </svg>
+            </button>
+            <nav>
+                <ul class="mobile-menu">
+                    <li class="mobile-menu__list-item"><a href="index.html"
+                            class="mobile-menu__navigation">Студия</a></li>
+                    <li class="mobile-menu__list-item"><a href="./portfolio.html" class="mobile-menu__navigation  mobile-menu__current">Портфолио</a>
+                    </li>
+                    <li class="mobile-menu__list-item"><a href="" class="mobile-menu__navigation">Контакты</a></li>
+                </ul>
+            </nav>
+        
+            <ul class="mobile-contacts">
+                <li class="mobile-contacts__list-item">
+                    <a href="tel:+380961111111" class="mobile-contacts__link-contact1">
+                        <span>+38 096 111 11 11</span></a>
+                </li>
+        
+                <li class="mobile-contacts__list-item">
+                    <a href="Mailto:info@devstydio.com" class="mobile-contacts__link-contact2">
+                        <span>info@devstydio.com</span></a>
+                </li>
+            </ul>
+        
+            <ul class="socials-list">
+                <li class="socials-list__item"><a class="socials-list__link" href="#">Instagram</a></li>
+                <li class="socials-list__item"><a class="socials-list__link" href="#">Twitter</a></li>
+                <li class="socials-list__item"><a class="socials-list__link" href="#">Facebook</a></li>
+                <li><a class="socials-list__link" href="#">Linkedin</a></li>
+            </ul>
+        </div>
+
+                         <script src="./js/mobile-menu.js"></script>
 
         </body>
         

@@ -1,9 +1,8 @@
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.5);
+  transform: scale(0.5);
 }
 
 .is-hidden {
-  visibility: hidden;
   opacity: 0;
   pointer-events: none;
   font-size: 0;
@@ -20,7 +19,8 @@
 .modal {
   position: absolute;
   top: 93px;
-  width: 100%;
+  left: 15px;
+  width: 450px;
   padding: 40px;
   border-radius: 4px;
   background-color: $white-color;

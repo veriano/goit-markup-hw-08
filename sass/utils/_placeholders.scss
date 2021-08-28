@@ -2,13 +2,13 @@
   color: $accent-color;
 }
 
+%contacts {
+  margin-left: auto;
+}
+
 %flex {
   display: flex;
   justify-content: space-between;
-}
-
-%contacts {
-  margin-left: auto;
 }
 
 %icon-color {
