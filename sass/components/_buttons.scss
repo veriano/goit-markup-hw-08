@@ -1,6 +1,12 @@
+<<<<<<< Updated upstream
 .primary-button {
   display: block; 
   width: 200px;                                          
+=======
+.primary-button {  
+  display: block; 
+  width: 200px;                                        
+>>>>>>> Stashed changes
   padding: 10px;
   margin: 0 auto;
   background-color: $accent-color;
@@ -25,7 +31,11 @@
   &--flex{
      display: flex;
      justify-content: center;
+<<<<<<< Updated upstream
     align-items: center;
+=======
+     align-items: center;
+>>>>>>> Stashed changes
   }
 }
 

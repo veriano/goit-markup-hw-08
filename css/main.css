@@ -374,10 +374,14 @@ a {
   }
 }
 
+<<<<<<< Updated upstream
 .second-section {
   padding: 60px 0 30px;
 }
 
+=======
+.second-section,
+>>>>>>> Stashed changes
 .project-section {
   padding: 60px 0;
 }
@@ -401,6 +405,10 @@ a {
   .images-section {
     display: none;
   }
+}
+
+.clients-section {
+  padding: 60px 0 33.5px;
 }
 
 .list-secondary-buttons {
@@ -797,7 +805,12 @@ a {
 }
 
 .first-section {
+<<<<<<< Updated upstream
   max-width: 480px;
+=======
+  width: 480px;
+  height: 400px;
+>>>>>>> Stashed changes
   padding: 118px 60px;
   margin: 0 auto;
   text-align: center;

@@ -58,10 +58,14 @@ a {
   }
 }
 
+<<<<<<< Updated upstream
 .second-section {
   padding: 60px 0 30px;
 }
 
+=======
+.second-section,
+>>>>>>> Stashed changes
 .project-section {
     padding: 60px 0;
 }
@@ -83,6 +87,10 @@ a {
   @media screen and (max-width: 1199px) {
     display: none;
   }
+}
+
+.clients-section {
+  padding: 60px 0 33.5px;
 }
 
 .list-secondary-buttons {
