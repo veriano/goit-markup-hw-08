@@ -58,14 +58,7 @@ a {
   }
 }
 
-<<<<<<< Updated upstream
-.second-section {
-  padding: 60px 0 30px;
-}
-
-=======
 .second-section,
->>>>>>> Stashed changes
 .project-section {
     padding: 60px 0;
 }
@@ -94,10 +87,17 @@ a {
 }
 
 .list-secondary-buttons {
-  display: inline-flex;
+  @media screen and (max-width: 767px) {
+  display: flex;
   flex-wrap: wrap;
   width: 362px;
   margin-bottom: 25px;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin: 0 auto 15px;
+  }
 }
 
 .secondary-button {
