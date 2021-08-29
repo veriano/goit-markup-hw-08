@@ -1,15 +1,10 @@
 .header-contacts {
    @media screen and (min-width: 768px) {
-   .header-contacts {
-      margin-left: auto;
-     }    
+      margin-left: auto;    
    }
 
   @media screen and (min-width:1200px) {
-  .header-contacts {
       display: flex;
-      justify-content: space-between;
-    }
   }
 }
 
@@ -22,28 +17,45 @@
 
 .header-contacts__link-contact {
   display: flex;
-  align-items: center;
+  font-size: 12px;
+  margin-top: 10px;
   color: $onemore-color;
+}
+
+@media sceen and (min-width: 1200px) {
+.header-contacts__link-contact {
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
+  margin: 0;
   line-height: 1.17;
 
   transition: fill 250ms $timing-function,
     color 250ms $timing-function;
+  }
 }
 
+@media screen and (min-width: 1200px) {
 .header-contacts__link-contact:hover,
 .header-contacts__link-contact:focus {
    color: $accent-color;
+  }
 }
 
-
 .header-contacts__header-icon {
-  margin-right: 10px;
+  margin-right: 8px;
   fill: $onemore-color;
+}
 
-.header-contacts__link-contact:hover &,
-.header-contacts__link-contact:focus & {
+@media screen and (min-width: 1200px) {
+  .header-contacts__header-icon {
+  margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header-contacts__link-contact:hover .header-contacts__header-icon,
+  .header-contacts__link-contact:focus .header-contacts__header-icon {
   fill: $accent-color;
- }
+  }
 }

@@ -27,7 +27,7 @@
   @include boxShadow(0.12, 0.14, 0.2);
 
   transform: scale(1);
-   transition: transform 250ms $timing-function;
+  transition: transform 250ms $timing-function;
 
   // modal-button
   &__close-button {
@@ -40,6 +40,12 @@
     border: solid 1px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
+  }
+
+  &__svg-close-button {
+    fill: $black-dark-color;
+
+    transition: fill 250ms $timing-function;
   }
 
   &__close-button:hover &__svg-close-button,

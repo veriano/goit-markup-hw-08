@@ -3,7 +3,7 @@
   padding: 16px 0;
 
   @media screen and (min-width: 768px) {
-    padding: 24px 0;
+    padding: 21px 0;
   }
 
 
@@ -28,11 +28,15 @@
 
 .logo {
   @extend %blue-color;
-  height: 31px;
+  height: 28px;
   font-family: $secondary-font;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.38;
+  font-size: 24px;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    height: 31px;
+  }
 
   &--dark {
       color: $black-dark-color;
@@ -44,7 +48,13 @@
 }
 
 .logo--with-margin-right {
+  margin-right: 88px;
+}
+
+@media screen and (min-width: 1200px) {
+  .logo--with-margin-right {
   margin-right: 93px;
+  }
 }
  
 @media screen and (min-width: 768px) {

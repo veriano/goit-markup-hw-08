@@ -45,6 +45,12 @@ a {
   }
 }
 
+.container--footer-flex {
+  @media screen and (min-width: 1200px){
+    display: flex;
+  }
+}
+
 .header-navigation,
 .header-contacts {
   @media screen and (max-width: 767px) {
@@ -52,18 +58,25 @@ a {
   }
 }
 
-.second-section,
+.second-section {
+  padding: 60px 0 30px;
+}
+
 .project-section {
     padding: 60px 0;
 }
 
 .clients-section {
-  padding: 60px 0 30px;
+  padding: 60px 0 33.5px;
 }
 
 .team-section {
   padding: 60px 0;
   background-color: $team-color;
+
+  @media screen and (min-width: 768px) {
+    padding: 60px 0 30px;
+  }
 }
 
 .images-section {

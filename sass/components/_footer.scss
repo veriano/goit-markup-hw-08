@@ -1,7 +1,17 @@
+.footer-logo-address-icons-wrapper {
+  @media screen and (min-width: 768px) {
+  display: flex;
+  }
+}
+
 .footer-wrapper {
   display: flex;
   flex-direction: column;
   margin-bottom: 60px;
+
+  @media screen and (min-width: 768px) {
+    margin-left: 76px;
+  }
 
   &__footer-item:not(:last-child) {
   margin-bottom: 8px;
@@ -26,6 +36,10 @@
 .footer-icons-wrapper {
   width: 206px;
   margin: 0 auto 60px;
+
+  @media screen and (min-width: 768px) {
+    margin: 5px 89px 0 auto;
+  }
 }
 
 

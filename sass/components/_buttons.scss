@@ -1,7 +1,9 @@
-.primary-button {                                           
-  padding: 0;
+.primary-button {
+  display: block; 
+  width: 200px;                                          
+  padding: 10px;
+  margin: 0 auto;
   background-color: $accent-color;
-  width: 200px;
   color: $white-color;
   font-weight: 700;
   font-size: 16px;
@@ -16,14 +18,15 @@
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
   }
 
-  // &--with-margin-right {
-  //   margin-right: 10px;
-  // }
+  &--with-margin-right {
+    margin-right: 10px;
+  }
 
-  // &--flex{
-  //    display: flex;
-  //   align-items: center;
-  // }
+  &--flex{
+     display: flex;
+     justify-content: center;
+    align-items: center;
+  }
 }
 
 // Secondary Buttons in portfolio
