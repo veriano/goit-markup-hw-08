@@ -31,6 +31,7 @@ a {
 .container {
   padding: 0 15px;
   margin: 0 auto;
+  overflow: hidden;
 
   @media screen and (min-width: 480px) {
     width: 480px;
@@ -58,13 +59,19 @@ a {
   }
 }
 
-.second-section,
+.second-section {
+  padding: 60px 0;
+}
 .project-section {
     padding: 60px 0;
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+  }
 }
 
 .clients-section {
-  padding: 60px 0 33.5px;
+  padding: 60px 0 30px;
 }
 
 .team-section {
@@ -75,6 +82,17 @@ a {
     padding: 60px 0 30px;
   }
 }
+// team-section list-icons
+
+.list-icons {
+  @extend %flex;
+  width: 206px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 225px) {
+    flex-direction: column;
+  }
+}
 
 .images-section {
   @media screen and (max-width: 1199px) {
@@ -83,38 +101,65 @@ a {
 }
 
 .clients-section {
-  padding: 60px 0 33.5px;
+  padding: 60px 0 30px;
 }
 
 .list-secondary-buttons {
-  @media screen and (max-width: 767px) {
   display: flex;
   flex-wrap: wrap;
-  width: 362px;
-  margin-bottom: 25px;
+
+  @media screen and (min-width: 480px) {
+    width: 362px;
+    margin-bottom: 25px;
   }
 
   @media screen and (min-width: 768px) {
-    display: flex;
+    justify-content: space-between;
+    width: 611px;
     margin: 0 auto 15px;
   }
 }
 
 .secondary-button {
+  @media screen and (min-width: 480px) {
   margin: 0 8px 15px 0;
+  }
 }
 
 .footer-section {
   padding: 60px 0;
   background-color: $black-color;
   text-align: center;
-}
 
-.footer-form {
-  margin: 0;
+  @media screen and (min-width: 1200px) {
+    text-align: start;
+  }
 }
 
 .footer-logo-wrapper {
   margin-bottom: 20px;
 }
+
+.footer-list-icons {
+  @extend %flex;
+
+  @media screen and (max-width: 225px) {
+    flex-direction: column;
+  }
+}
+
+.footer-form {
+  margin: 0;
+
+  @media screen and (min-width: 1200px) {
+    margin: 12px 0 0 auto;
+  }
+}
+
+@media screen and (min-width: 1200) {
+  .footer-form-field {
+    display: flex;
+  }
+}
+
 

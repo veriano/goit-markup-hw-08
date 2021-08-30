@@ -17,7 +17,7 @@
   }
 }
 
-.feature-list__description {
+.feature-list__description:not(:last-child) {
   margin-bottom: 30px;
 }
 

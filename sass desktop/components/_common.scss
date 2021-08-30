@@ -78,7 +78,8 @@ a {
 }
 
 .list-secondary-buttons {
-  @extend %flex;
+  display: flex;
+  justify-content: space-between;
   width: 611px;
   margin: 0 auto;
   margin-bottom: 50px;

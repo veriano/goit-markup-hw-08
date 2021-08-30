@@ -9,7 +9,7 @@
   flex-direction: column;
   margin-bottom: 60px;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-left: 76px;
   }
 
@@ -37,33 +37,21 @@
   width: 206px;
   margin: 0 auto 60px;
 
+  @media screen and (max-width: 225px) {
+    width: 100%;
+  }
+
   @media screen and (min-width: 768px) {
     margin: 5px 89px 0 auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+
   }
 }
 
 
-.footer-list-icons {
-  @extend %flex;
-  
-    &__svg-link {
-    @extend %svg-color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50px;
-    }
 
-    
-    &--footer-social-icon {
-    fill: $white-color;
-    } 
-}
 
-footer-form-field__button-svg {
-  margin-left: 10px;
-}
 
 

@@ -15,6 +15,10 @@
     border: 1px solid $icon-color;
     border-radius: 4px;
 
+    @media screen and (max-width: 230px) {
+      width: 100vw;
+    }
+
     @media screen and (min-width: 768px) {
       width: 226px;
     }

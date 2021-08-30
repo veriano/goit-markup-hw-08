@@ -1,13 +1,10 @@
 .header-contacts {
-   @media screen and (min-width: 768px) {
-      margin-left: auto;    
-   }
-
+  margin-left: auto;    
+   
   @media screen and (min-width:1200px) {
       display: flex;
   }
 }
-
 
 @media screen and (min-width: 1200px) {
   .header-contacts__list-item:not(:last-child) {
@@ -22,7 +19,7 @@
   color: $onemore-color;
 }
 
-@media sceen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 .header-contacts__link-contact {
   align-items: center;
   font-weight: 500;

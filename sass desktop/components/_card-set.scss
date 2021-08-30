@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
 
-  &__item:not(:nth-child(3n)) {
+  &__item:not(:nth-child(3n+3)) {
     margin-right: 30px;
   }
 

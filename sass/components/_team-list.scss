@@ -11,7 +11,7 @@
 
   @media screen and (min-width: 768px) {
     width: 354px;
-    // flex-basis: calc(100% - (2 * 30px)) / 2;
+    // flex-basis: calc(100% - 2 * 30px) / 2;
   }
 } 
 
@@ -40,24 +40,5 @@
 }
 
 
-.list-icons {
-  @extend %flex;
-  width: 206px;
-  margin: 0 auto;
 
-  &__icon-color {
-  fill: $icon-color;
-
-  transition: fill 250ms $timing-function;
-  }
-
-  &__svg-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50px;
-  }
-}
   

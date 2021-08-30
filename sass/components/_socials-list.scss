@@ -4,6 +4,10 @@
     width: 357px;
     color: $accent-color;
 
+    @media screen and (max-width: 400px) {
+      flex-direction: column;
+    }
+
     &__link {
         position: relative;
         font-weight: 500;

@@ -1,0 +1,60 @@
+// team-list icons
+
+.list-icons__icon-color {
+  fill: $icon-color;
+
+  @media screen and (min-width: 1200px) {
+  transition: fill 250ms $timing-function;
+  }
+}
+
+.list-icons__svg-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+
+  @media screen and (min-width: 1200px) {
+      transition: background-color 250ms $timing-function;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .list-icons__svg-link:hover,
+  .list-icons__svg-link:focus {
+  background-color: $accent-color;
+  }
+
+  .list-icons__svg-link:hover .list-icons__icon-color,
+  .list-icons__svg-link:focus .list-icons__icon-color {
+  fill: $white-color;
+  }
+}
+
+// footer icons
+
+.footer-list-icons__svg-link {
+    @extend %svg-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+
+    transition: background-color 250ms $timing-function;
+}
+
+.footer-list-icons--footer-social-icon {
+    fill: $white-color;
+} 
+
+@media screen and (min-width: 1200px) {
+  .footer-list-icons__svg-link:hover,
+  .footer-list-icons__svg-link:focus {
+    background-color: $accent-color;
+  }
+}
