@@ -13,6 +13,18 @@
   border-radius: 4px;
   cursor: pointer;
 
+  @media screen and (min-width: 1200px) {
+  transition: background-color 250ms $timing-function,
+    color 250ms $timing-function;
+
+
+  &--hover:hover,
+  &--focus:focus {
+  background-color: $white-color;
+  color: $accent-color;
+    }
+  }
+
   @media screen and (max-width: 265px) {
     width: 100%;
   }

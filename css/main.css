@@ -769,6 +769,17 @@ a {
   cursor: pointer;
 }
 
+@media screen and (min-width: 1200px) {
+  .primary-button {
+    -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .primary-button--hover:hover, .primary-button--focus:focus {
+    background-color: #ffffff;
+    color: #2196f3;
+  }
+}
+
 @media screen and (max-width: 265px) {
   .primary-button {
     width: 100%;
