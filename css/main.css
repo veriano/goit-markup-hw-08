@@ -1816,18 +1816,13 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
+  .footer-wrapper__footer-link {
+    -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
   .footer-wrapper__footer-link .footer-wrapper__footer-link:hover,
   .footer-wrapper__footer-link .footer-wrapper__footer-link:focus {
     color: #2196f3;
-  }
-  .footer-wrapper__footer-link .footer-wrapper__footer-link {
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.6);
-    -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 

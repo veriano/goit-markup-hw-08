@@ -55,23 +55,16 @@
   color: $link-color;
 
   @media screen and (min-width: 1200px) {
-    
+
+  transition: color 250ms $timing-function;
+
   .footer-wrapper__footer-link:hover,
   .footer-wrapper__footer-link:focus {
     color: $accent-color;
-  }
-
-  .footer-wrapper__footer-link {
-    font-weight: 400;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    color: $link-color;
-
-    transition: color 250ms $timing-function;
-    }
+   }
   }
 }
+
 
 .footer-icons-wrapper {
   width: 206px;
