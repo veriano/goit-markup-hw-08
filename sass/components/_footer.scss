@@ -54,14 +54,14 @@
   line-height: 1.7;
   color: $link-color;
 
-  @media screen and (min-width: 1200px) {
-
   transition: color 250ms $timing-function;
+}
 
-  .footer-wrapper__footer-link:hover,
-  .footer-wrapper__footer-link:focus {
+@media screen and (min-width: 1200px) {
+
+.footer-wrapper__footer-link:hover,
+.footer-wrapper__footer-link:focus {
     color: $accent-color;
-   }
   }
 }
 
