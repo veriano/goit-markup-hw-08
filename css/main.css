@@ -1332,8 +1332,16 @@ a {
   }
 }
 
-.feature-list__description:not(:last-child) {
-  margin-bottom: 30px;
+@media screen and (max-width: 767px) {
+  .feature-list__description:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .feature-list__description:not(:nth-last-child(-n+2)) {
+    margin-bottom: 30px;
+  }
 }
 
 .feature-list__title-one {
