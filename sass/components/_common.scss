@@ -61,6 +61,10 @@ a {
 
 .second-section {
   padding: 60px 0;
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0 47px;
+  }
 }
 .project-section {
     padding: 60px 0;
@@ -81,6 +85,10 @@ a {
   @media screen and (min-width: 768px) {
     padding: 60px 0 30px;
   }
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+  }
 }
 // team-section list-icons
 
@@ -98,10 +106,16 @@ a {
   @media screen and (max-width: 1199px) {
     display: none;
   }
+
+  padding: 47px 0 94px;
 }
 
 .clients-section {
   padding: 60px 0 30px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+  }
 }
 
 .list-secondary-buttons {
@@ -144,7 +158,7 @@ a {
   @extend %flex;
 
   @media screen and (max-width: 225px) {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 

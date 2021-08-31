@@ -13,10 +13,16 @@
     width: 354px;
     // flex-basis: calc(100% - 2 * 30px) / 2;
   }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
 } 
 
 .team-list__description-team:not(:last-child) {
+  @media screen and (max-width: 1199px) {
     margin-bottom: 30px;
+  }
 }
 
 .team-wrapper {

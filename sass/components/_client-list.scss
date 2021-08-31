@@ -2,11 +2,18 @@
    @extend %flex;
    flex-wrap: wrap;
 
-   &__client-link {
-    margin-bottom: 30px;
+   @media screen and (min-width: 1200px) {
+     justify-content: space-between;
    }
+}
 
-  &__client-link {
+.client-list__client-link {
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 30px;
+  }
+}
+
+.client-list__client-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,22 +30,26 @@
       width: 226px;
     }
 
+    @media screen and (min-width: 1200px) {
+      width: 170px;
+    }
+
     transition: border 250ms $timing-function;
   }
 
-  &__logo-client {
+.client-list__logo-client {
     @extend %icon-color;
 
     transition: fill 250ms $timing-function;
-  }
-
-  &__client-link:hover,
-  &__client-link:focus {
-  border: 1px solid $accent-color;
-  }
-
-  &__client-link:hover &__logo-client,
-  &__client-link:focus &__logo-client {
-  fill: $accent-color;
-  }
 }
+
+.client-list__client-link:hover,
+.client-list__client-link:focus {
+  border: 1px solid $accent-color;
+}
+
+.client-list__client-link:hover .client-list__logo-client,
+.client-list__client-link:focus .client-list__logo-client {
+  fill: $accent-color;
+}
+
