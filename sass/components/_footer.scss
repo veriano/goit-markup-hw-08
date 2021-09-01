@@ -1,6 +1,8 @@
 .footer-logo-address-icons-wrapper {
   @media screen and (min-width: 768px) {
   display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
   }
 }
 
@@ -10,7 +12,7 @@
   margin-bottom: 60px;
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    margin-left: 76px;
+    margin: 0;
   }
 
   @media screen and (min-width: 1200px) {
@@ -75,7 +77,7 @@
   }
 
   @media screen and (min-width: 768px) {
-    margin: 5px 89px 0 auto;
+    margin: 5px 0 0;
   }
 
   @media screen and (min-width: 1200px) {
