@@ -400,7 +400,7 @@ a {
 }
 
 .team-section {
-  padding: 60px 0;
+  padding: 60px 0 30px;
   background-color: #f5f4fa;
 }
 
@@ -412,7 +412,7 @@ a {
 
 @media screen and (min-width: 1200px) {
   .team-section {
-    padding: 94px 0;
+    padding: 94px 0 64px;
   }
 }
 
@@ -1278,6 +1278,7 @@ a {
 @media screen and (min-width: 1200px) {
   .checkbox-label {
     margin-left: 12px;
+    text-align: center;
   }
 }
 
@@ -1310,6 +1311,7 @@ a {
 @media screen and (min-width: 1200px) {
   .text-checkbox {
     font-size: 14px;
+    margin-left: 0;
   }
 }
 
@@ -1561,10 +1563,8 @@ a {
   }
 }
 
-@media screen and (max-width: 1199px) {
-  .team-list__description-team:not(:last-child) {
-    margin-bottom: 30px;
-  }
+.team-list__description-team {
+  margin-bottom: 30px;
 }
 
 .team-wrapper {
